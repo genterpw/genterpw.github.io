@@ -9,6 +9,34 @@ footer {
   padding: 30px 0px;
   text-align: center;
 }
+img {
+  width: 100%;
+}
+.centertext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centertext p {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.rainbow {
+  background-image: url(images/rainbow.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.projects{
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+.portfolio{
+  background-image: url(images/portfolio.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
 
 .gallery {
   display: flex;
@@ -18,6 +46,7 @@ footer {
 }
 
 .gallery div {
+  width: 300px;
   text-align: center;
 }
 
@@ -35,6 +64,7 @@ footer {
   margin: 100px 0px;
   text-align: center;
 }
+
 
 header p {
   color: white;
@@ -68,5 +98,6 @@ header {
 @media screen and (max-width: 960px) {
   .gallery {
     flex-direction: column;
+    align-items: center;
   }
 }
